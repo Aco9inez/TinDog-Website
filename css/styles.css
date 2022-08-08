@@ -1,0 +1,190 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  color: grey;
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 3% 15%;
+  overflow: hidden;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #32E0C4;
+}
+
+.white-section {
+  background-color: white;
+}
+
+/*CLASS SELECTORS*/
+/*TITLE*/
+#title .container-fluid {
+  padding: 3% 15% 7% 15%;
+  text-align: left;
+}
+
+.YukiPicIphone {
+  width: 120%;
+  transform: rotate(10deg);
+  position: absolute;
+  left: 5%;
+}
+
+@media (max-width:991px) {
+  .YukiPicIphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+.row {
+  position: relative;
+  padding-right: 20%;
+}
+
+/*Navagation bars*/
+.navbar {
+  padding-bottom: 2.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link:hover {
+  color: white;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: ;
+}
+
+/*Download buttons*/
+.download-button {
+  margin: 5% 3% 5% 2%;
+}
+
+/*Features**/
+.col-lg-4 {
+  font-size: 1rem;
+  padding: 3%;
+}
+
+.row {
+  margin: 0 0 0 0;
+  padding-right: 0;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.icon {
+  color: #F4A442;
+  padding-bottom: 20px;
+}
+
+.icon:hover {
+  color: #FFD07F;
+}
+
+#features {
+  font-family: "Montserrat", sans-serif;
+  z-index: 1;
+  position: relative;
+}
+
+/*Testimonials*/
+#testimonials {
+  background-color: #32E0C4;
+}
+
+.testimonial-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 31%;
+  border-radius: 100%;
+}
+
+.testimonial-dog-image {
+  width: 30%;
+  border-radius: 100%;
+}
+
+.testimonial-dog-image-2 {
+  border-radius: 100%;
+  width: 30%;
+}
+
+.carousel-item {
+  padding: 7% 18% 7% 18%;
+}
+
+/*Press section*/
+#press {
+  background-color: #32E0C4;
+  padding-bottom: 4%;
+}
+
+.press-images {
+  width: 14%;
+  margin: 20px 20px 20px 20px;
+}
+
+/*Pricing*/
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding-top: 20px;
+}
+
+.price-text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.Dogthumbsup-image {
+  width: 30%;
+  position: relative;
+  margin: auto;
+}
+
+/* Call to action & footer section  */
+.bottom-button {
+  margin: 10% 5% 0% 5%;
+}
+
+.s-media-images {
+  margin: 10% 2% 2% 2%;
+}
